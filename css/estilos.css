@@ -1,0 +1,306 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+}
+
+a:hover {
+    color: darkorange;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.5;
+    letter-spacing: -.2px;
+    text-transform: capitalize;
+    color: white;
+    margin: 0;
+}
+
+h1 strong{
+    color: #0269ff;
+}
+
+h2 {
+    color: #0269ff;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+body {
+    background-color: grey;
+}
+
+/*Clases*/
+
+.hero {
+    height: 400px;
+    width: 950px;
+    background-image: url(../img/hero.jpg);
+    background-color: rgb(62, 58, 82);
+    background-size: 500px 400px;
+    background-repeat: no-repeat;
+    background-position-x: 500px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    margin-left: 10px;
+}
+
+.portfolio{
+    background-color: white;
+    border-radius: 50px;
+    padding: 20px;
+    margin: 0 auto;
+    width: 1100px;
+}
+
+.project {
+    background-color: lightblue;
+    border-radius: 10px;
+    border: 5px solid darkred;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-title {
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.project-course,
+.project-date,
+.project-url {
+    margin: 10px 0;
+}
+
+.project-description {
+    font-size: 20px;
+}
+
+.project strong {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.project-information {
+    width: 500px;
+}
+
+.project-image-container {
+    width: 500px;
+}
+
+.header {
+    background-color: #1b2127;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.menu {
+    height: inherit;
+}
+
+.header ol {
+    display: flex;
+    height: inherit;
+}
+
+.header ol li {
+    height: inherit;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.header a:hover{
+    color: gray;
+}
+
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+figure {
+    margin: 0;
+}
+
+.footer {
+    color: white;
+    background-color: #1b2127;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.footer img {
+    vertical-align: middle;
+}
+
+.footer a{
+    color: white;
+}
+
+.footer a:hover{
+    color: blue;
+}
+
+.experience-list {
+    display: flex;
+}
+
+.study {
+    margin-left: 40px;
+    font-size: 43px;
+    margin-bottom: 10px;
+    display: flex;
+    background-color: brown;
+    width: 300px;
+    border-radius: 10px;
+    color: white;
+    justify-content: center;
+}
+
+.experience {
+    margin: 10px;
+    width: 480px;
+    border-radius: 10px;
+    flex-shrink: 0;
+    background-color: #0269ff;
+}
+
+.experience-detail {
+    padding: 10px;
+    margin: 30px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.experience img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.experience-url {
+    border: 1px solid #056fff;
+    padding: 5px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #056fff;
+}
+
+.experience-button{
+    display: flex;
+    justify-content: center;
+}
+
+.experience-url:hover{
+    color: grey;
+    border-color: grey;
+}
+
+.contact{
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #056fff;
+    color: white;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-link{
+    margin: 3px;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-size: 50px 50px;
+}
+
+.social-link:hover{
+    background-color: lightblue;
+}
+
+.social-link.twitter{
+    background-image: url(../img/icono-twitter.png);
+}
+
+.social-link.platzi{
+    background-image: url(../img/icono-platzi.png);
+}
+
+.social-link.instagram{
+    background-image: url(../img/icono-instagram.png);
+}
+
+.social-link.github{
+    background-image: url(../img/icono-github.png);
+}
+
+.mail{
+    border-color: gray;
+    padding: 10px;
+    padding-left: 30px;
+    border-style: solid;
+    border-radius: 5px;
+    background-image: url(../img/mail.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+}
+
+.button-submit{
+    display: block;
+    margin-top: 10px;
+    background-color: rgb(29, 81, 99);
+    color: white;
+    padding: 5px 30px;
+    border-radius: 5px;
+    width: 100px;
+}

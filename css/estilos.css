@@ -27,11 +27,11 @@ h1 {
 }
 
 h1 strong{
-    color: #0269ff;
+    color: rgb(38, 142, 248);
 }
 
 h2 {
-    color: #0269ff;
+    color: rgb(38, 142, 248);
     text-transform: uppercase;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
@@ -40,7 +40,7 @@ h2 {
 }
 
 body {
-    background-color: grey;
+    background-color: rgb(96, 104, 108);
 }
 
 /*Clases*/
@@ -49,7 +49,7 @@ body {
     height: 400px;
     width: 950px;
     background-image: url(../img/hero.jpg);
-    background-color: rgb(62, 58, 82);
+    background-color: rgb(50, 46, 66);
     background-size: 500px 400px;
     background-repeat: no-repeat;
     background-position-x: 500px;
@@ -63,7 +63,7 @@ body {
 }
 
 .portfolio{
-    background-color: white;
+    background-color: #181A1B;
     border-radius: 50px;
     padding: 20px;
     margin: 0 auto;
@@ -71,9 +71,9 @@ body {
 }
 
 .project {
-    background-color: lightblue;
+    background-color: #1A4958;
     border-radius: 10px;
-    border: 5px solid darkred;
+    border: 5px solid rgb(214, 57, 34);
     padding: 20px;
     display: flex;
     align-items: center;
@@ -102,14 +102,21 @@ body {
 
 .project-information {
     width: 500px;
+    color: white;
 }
 
 .project-image-container {
     width: 500px;
 }
 
+.project-link{
+    color: white;
+    text-decoration: none;
+    font-size: 13.34px;
+}
+
 .header {
-    background-color: #1b2127;
+    background-color: rgb(22, 26, 31);
     color: white;
     display: flex;
     justify-content: space-between;
@@ -209,7 +216,8 @@ figure {
 .experience-detail {
     padding: 10px;
     margin: 30px;
-    background-color: white;
+    background-color: rgb(24, 26, 27);
+    color: white;
     border-radius: 10px;
     position: relative;
     padding-bottom: 30px;
